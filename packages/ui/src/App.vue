@@ -2,8 +2,8 @@
  * @Author: kongweigen 421505648@qq.com
  * @Date: 2022-06-22 22:54:32
  * @LastEditors: kongweigen 421505648@qq.com
- * @LastEditTime: 2022-06-23 23:00:07
- * @FilePath: \webpack-learne:\webProject\Monerepo\MonerepoDemo\ui\src\App.vue
+ * @LastEditTime: 2022-07-13 22:25:00
+ * @FilePath: \webpack-learne:\webProject\Monerepo\MonerepoDemo\packages\ui\src\App.vue
  * @Description: 
  * 
  * Copyright (c) 2022 by kongweigen 421505648@qq.com, All Rights Reserved. 
@@ -17,6 +17,8 @@ import Button from './components/Button.vue'
 <template>
   <h2>我是UI</h2>
   <Button>你好</Button>
+  <k-button>我是组件库按钮</k-button>
+  <k-button>Primary</k-button>
 </template>
 
 <style>

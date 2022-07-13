@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "vue": "^3.2.25",
-    "ui": "workspace:*"
+    "ui": "workspace:**"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
