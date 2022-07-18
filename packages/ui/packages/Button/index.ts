@@ -2,9 +2,9 @@
  * @Author: kongweigen 421505648@qq.com
  * @Date: 2022-07-13 21:47:53
  * @LastEditors: kongweigen 421505648@qq.com
- * @LastEditTime: 2022-07-13 21:56:36
+ * @LastEditTime: 2022-07-18 22:05:48
  * @FilePath: \webpack-learne:\webProject\Monerepo\MonerepoDemo\packages\ui\packages\Button\index.ts
- * @Description:
+ * @Description: 组件库导出文件
  *
  * Copyright (c) 2022 by kongweigen 421505648@qq.com, All Rights Reserved.
  */
