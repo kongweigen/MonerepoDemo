@@ -1,31 +1,12 @@
 {
-  "name": "MonerepoDemo",
+  "name": "vite-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build"
-  },
-  "turbo": {
-    "pipeline": {
-      "dev": {
-        "cache": false
-      },
-      "build": {
-        "dependsOn": [
-          "^build"
-        ],
-        "outputs": [
-          "dist/**"
-        ]
-      }
-    }
+    "build": "vue-tsc --noEmit && vite build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "turbo": "^1.2.16"
-  }
+  "license": "ISC"
 }
