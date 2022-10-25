@@ -1,0 +1,20 @@
+{
+  "name": "webpack-jump-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "exports": {
+    ".":"./src/index.js",
+    "./loader":"./src/loader.js"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
